@@ -16,4 +16,4 @@ my_list_rdd = sc.parallelize(my_list)
 
 result = my_list_rdd.map(lambda x: my_func(x)).collect()
 
-print result
+print(result)
