@@ -14,7 +14,7 @@ def repartition():
     df.write.partitionBy('year').csv("")
 
     # Now, try doing repartition
-    # TODO number of your workers
+    # TODO Add the number of your workers
     # Write another path, and take a look at Executor tab. What changed?
     df.repartition().write.csv("")
 
