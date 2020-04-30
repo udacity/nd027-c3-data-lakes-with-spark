@@ -1,3 +1,6 @@
-# Purpose of this Folder
+# Exercises for Lesson 4: Debugging and Optimization
 
-This folder should contain the starter code and instructions for the exercise.
+This folder contains the exercises for Lesson 4: Debugging and Optimization.
+
+1. Broadcast example
+2. Optimize Skewness
