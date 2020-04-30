@@ -2,5 +2,5 @@
 
 This folder contains the exercises for Lesson 4: Debugging and Optimization.
 
-1. Broadcast example
-2. Optimize Skewness
+1. Broadcast
+2. Optimize Skewness:  Repartition
