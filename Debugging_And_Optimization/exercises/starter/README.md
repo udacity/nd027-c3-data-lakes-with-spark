@@ -2,5 +2,6 @@
 
 This folder contains the exercises for Lesson 4: Debugging and Optimization.
 
-1. Broadcast
-2. Optimize Skewness:  Repartition
+1. Practice  Broadcast Joins
+2. Repartition
+3. Introduction to Data Skewness  
