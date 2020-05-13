@@ -6,13 +6,16 @@ This repo contains the exercises for the two lessons: L3:  Setting up Spark Clus
 
 ### Lesson Folder
 
-This repo contains a folder for each `lesson` and one `project` folder.
+This repo contains a folder for each `lesson`
 
 ```
 Lesson 3:  Submitting_spark_scripts
 Lesson 4:  Write_to_s3
 
 ```
+### Demo folder
+
+Lesson 3 includes a demo code folder containing code and data files used from the classroom.
 
 ### Exercises Folder
 
