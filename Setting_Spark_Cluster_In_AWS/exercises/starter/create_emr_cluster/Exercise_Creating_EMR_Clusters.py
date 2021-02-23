@@ -21,7 +21,7 @@ aws emr create-cluster
 --instance-count 2 
 --applications Name=Spark  
 --bootstrap-actions Path=<YOUR_BOOTSTRAP_FILENAME> 
---ec2-attributes KeyName=<YOUR_KEY_NAME> 
+--ec2-attributes KeyName=<YOUR_KEY_NAME>,SubnetId=subnet-<SUBNET_ID>
 --instance-type m5.xlarge 
 --instance-count 3 
 --auto-terminate`
