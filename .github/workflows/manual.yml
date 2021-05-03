@@ -33,11 +33,15 @@ jobs:
         project: CONUPDATE
         issuetype: Task
         summary: |
-          Github PR - ND027 CC3 Datalakes with Spark | PR# ${{github.event.number}}
+          Github PR - ND027 C3 Datalakes with Spark  
         description: |
-           Repo link: ${{ github.repository }} | PR no. ${{ github.event.pull_request.number }} | PR title: ${{ github.event.pull_request.title }} | ${{ github.event.pull_request.description }}
+           Repo link: https://github.com/${{ github.repository }} | 
+           PR# ${{github.event.number}} |
+           PR no. ${{ github.event.pull_request.number }} | 
+           PR title: ${{ github.event.pull_request.title }} | 
+           PR description: ${{ github.event.pull_request.description }} | 
+           In addition, please resolve other issues, if any. 
         fields: '{"components": [{"name":"*NEED NEW ND COMPONENT"}], "customfield_16449":"https://classroom.udacity.com/nanodegrees/nd027/parts/19ef4e55-151f-4510-8b5c-cb590ac52df2", "customfield_16450":"Resolve the PR", "labels": ["github"]}'
 
     - name: Log created issue
       run: echo "Issue ${{ steps.create.outputs.issue }} was created"
-
