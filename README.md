@@ -1,6 +1,6 @@
 # Purpose of This Repo
 
-This repo contains the exercises for the two lessons from the **Data Lakes with Spark** course in ND027 - Data Engineering Nanodegree program: 
+This repo contains the exercises for the following two lessons from the **Data Lakes with Spark** course in ND027 - Data Engineering Nanodegree program: 
 * Lesson 3:  Setting up Spark Clusters using AWS, and 
 * Lesson 4:  Debugging and Optimization.  
 
